@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7a9dac40431cfef71344d7092db55cf7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7a9dac40431cfef71344d7092db55cf7" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7a9dac40431cfef71344d7092db55cf7 = L.map(
+                "map_7a9dac40431cfef71344d7092db55cf7",
+                {
+                    center: [31.9686, -99.9018],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4bb975544b5d02e7be38852b1b78aed5 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_4bb975544b5d02e7be38852b1b78aed5.addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+            var marker_d6f036abde9ad4afa7b28555a9b48398 = L.marker(
+                [32.13, -95.30916666666667],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_c9b9a6169507e8aa731cb03b79cc9132 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ef20c5a0ea7e94e88ddcb0ab64a3a37 = $(`<div id="html_3ef20c5a0ea7e94e88ddcb0ab64a3a37" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>473</td></tr><tr><td><b>Location:</b></td><td>32°07'48"N 95°18'33"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 473 25-12-13-1 WANSLEY</td></tr><tr><td><b>Operator:</b></td><td>Chesapeake</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX3</td></tr><tr><td><b>Incident Type:</b></td><td>Twist Off</td></tr></table></div>`)[0];
+                popup_c9b9a6169507e8aa731cb03b79cc9132.setContent(html_3ef20c5a0ea7e94e88ddcb0ab64a3a37);
+            
+        
+
+        marker_d6f036abde9ad4afa7b28555a9b48398.bindPopup(popup_c9b9a6169507e8aa731cb03b79cc9132)
+        ;
+
+        
+    
+    
+            var marker_c7d2cc278188b50bd98b02d6218d32f2 = L.marker(
+                [29.620833333333334, -97.97555555555556],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_c0266eea55d2b65d905e38c7b1c7735c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b9d68dcac320a4807b71482d34b88d3 = $(`<div id="html_0b9d68dcac320a4807b71482d34b88d3" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>482</td></tr><tr><td><b>Location:</b></td><td>29°37'15"N 97°58'32"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 482 KINSEL BROWN HC7 B 7HR</td></tr><tr><td><b>Operator:</b></td><td>INEOS USA OIL & GAS LLC</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX3</td></tr><tr><td><b>Incident Type:</b></td><td>Other (Casing Damage)</td></tr></table></div>`)[0];
+                popup_c0266eea55d2b65d905e38c7b1c7735c.setContent(html_0b9d68dcac320a4807b71482d34b88d3);
+            
+        
+
+        marker_c7d2cc278188b50bd98b02d6218d32f2.bindPopup(popup_c0266eea55d2b65d905e38c7b1c7735c)
+        ;
+
+        
+    
+    
+            var marker_a4a375102472ef5fd22a9d2ee95710bf = L.marker(
+                [31.893055555555556, -103.9325],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_c8c26afb36bd8fd9c7b83dd4043c0964 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2bd2943e93f1d96fd8ac0eeffc29f457 = $(`<div id="html_2bd2943e93f1d96fd8ac0eeffc29f457" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>244</td></tr><tr><td><b>Location:</b></td><td>31°53'35"N 103°55'57"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 244 THREADFIN 57-1-47-35-D 62H</td></tr><tr><td><b>Operator:</b></td><td>OXY USA INC</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX3</td></tr><tr><td><b>Incident Type:</b></td><td>Test</td></tr></table></div>`)[0];
+                popup_c8c26afb36bd8fd9c7b83dd4043c0964.setContent(html_2bd2943e93f1d96fd8ac0eeffc29f457);
+            
+        
+
+        marker_a4a375102472ef5fd22a9d2ee95710bf.bindPopup(popup_c8c26afb36bd8fd9c7b83dd4043c0964)
+        ;
+
+        
+    
+    
+            var marker_eec7713862cdacbf58ca21f394bb9270 = L.marker(
+                [32.55166666666666, -103.6363888888889],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_777608fd94e0fc81ccaa4d9e1fcf3634 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee32e6d0c10188356925dc3180a01286 = $(`<div id="html_ee32e6d0c10188356925dc3180a01286" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>255</td></tr><tr><td><b>Location:</b></td><td>32°33'06"N 103°38'11"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 255 SENDRA JEAN 23 604H</td></tr><tr><td><b>Operator:</b></td><td>AVANT NATURAL RESOURCES</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX3</td></tr><tr><td><b>Incident Type:</b></td><td>Back Out</td></tr></table></div>`)[0];
+                popup_777608fd94e0fc81ccaa4d9e1fcf3634.setContent(html_ee32e6d0c10188356925dc3180a01286);
+            
+        
+
+        marker_eec7713862cdacbf58ca21f394bb9270.bindPopup(popup_777608fd94e0fc81ccaa4d9e1fcf3634)
+        ;
+
+        
+    
+    
+            var marker_2d78105f3a04c643700e3bc5b22fc2a7 = L.marker(
+                [47.38527777777778, -102.63805555555557],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_1eeb088fe6c075ee209aea4d7e34d32e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e896bb70b5f625f0ae2a6ba8768868e2 = $(`<div id="html_e896bb70b5f625f0ae2a6ba8768868e2" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>259</td></tr><tr><td><b>Location:</b></td><td>47°23'07"N 102°38'17"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 259 PRINCE 14-11H</td></tr><tr><td><b>Operator:</b></td><td>MARATHON OIL COMPANY</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX3</td></tr><tr><td><b>Incident Type:</b></td><td>Bit Failure; Other (Low ROP)</td></tr></table></div>`)[0];
+                popup_1eeb088fe6c075ee209aea4d7e34d32e.setContent(html_e896bb70b5f625f0ae2a6ba8768868e2);
+            
+        
+
+        marker_2d78105f3a04c643700e3bc5b22fc2a7.bindPopup(popup_1eeb088fe6c075ee209aea4d7e34d32e)
+        ;
+
+        
+    
+    
+            var marker_e4f44afc99b08a009ef5901df010f127 = L.marker(
+                [31.680555555555557, -103.85194444444444],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_924f686f424840c3376bbe18b0c3a7b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba4146db8304283d7e58ff0e73ec3eac = $(`<div id="html_ba4146db8304283d7e58ff0e73ec3eac" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>261</td></tr><tr><td><b>Location:</b></td><td>31°40'50"N 103°51'07"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 261 SODA POPINSKI 27 #1H</td></tr><tr><td><b>Operator:</b></td><td>GREENLAKE ENERGY OPERATING, LLC.</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX3</td></tr><tr><td><b>Incident Type:</b></td><td>Back Out; FlexOscillator</td></tr></table></div>`)[0];
+                popup_924f686f424840c3376bbe18b0c3a7b2.setContent(html_ba4146db8304283d7e58ff0e73ec3eac);
+            
+        
+
+        marker_e4f44afc99b08a009ef5901df010f127.bindPopup(popup_924f686f424840c3376bbe18b0c3a7b2)
+        ;
+
+        
+    
+    
+            var marker_934f8b61aa893d76ee0b375f78ff3448 = L.marker(
+                [35.60805555555556, -98.27222222222223],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_d171d921a48aafe34bdaf8d85a99aa0c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9614695ff22627c659467dc7b2f362e1 = $(`<div id="html_9614695ff22627c659467dc7b2f362e1" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>300</td></tr><tr><td><b>Location:</b></td><td>35°36'29"N 98°16'20"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 300 SHARRY 16_21-13N-10W 5HX</td></tr><tr><td><b>Operator:</b></td><td>DEVON ENERGY PRODUCTION COMPANY LP</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX3</td></tr><tr><td><b>Incident Type:</b></td><td>Bit Failure</td></tr></table></div>`)[0];
+                popup_d171d921a48aafe34bdaf8d85a99aa0c.setContent(html_9614695ff22627c659467dc7b2f362e1);
+            
+        
+
+        marker_934f8b61aa893d76ee0b375f78ff3448.bindPopup(popup_d171d921a48aafe34bdaf8d85a99aa0c)
+        ;
+
+        
+    
+    
+            var marker_cb2b80b4ac333116cf4aa535b879ec62 = L.marker(
+                [31.143055555555556, -101.82138888888889],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_ea02150a3ece3ca06bc70c9416d2e4fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3e920694afd6ec73569f0caf1aab26a = $(`<div id="html_b3e920694afd6ec73569f0caf1aab26a" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>370</td></tr><tr><td><b>Location:</b></td><td>31°08'35"N 101°49'17"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 370 UNIVERSITY D 28-21 4H</td></tr><tr><td><b>Operator:</b></td><td>ROCKPORT ENERGY SOLUTIONS LLC</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX3</td></tr><tr><td><b>Incident Type:</b></td><td>Twist Off (x2)</td></tr></table></div>`)[0];
+                popup_ea02150a3ece3ca06bc70c9416d2e4fc.setContent(html_b3e920694afd6ec73569f0caf1aab26a);
+            
+        
+
+        marker_cb2b80b4ac333116cf4aa535b879ec62.bindPopup(popup_ea02150a3ece3ca06bc70c9416d2e4fc)
+        ;
+
+        
+    
+    
+            var marker_72cb4cf5685b0ee8bcd9f1bfd6200e1c = L.marker(
+                [32.66888888888889, -103.67583333333334],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_9fc6cfa1a834cb033704d98f97cd710a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8acfe0d4fd4a71b36cdbc53721386eaa = $(`<div id="html_8acfe0d4fd4a71b36cdbc53721386eaa" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>375</td></tr><tr><td><b>Location:</b></td><td>32°40'08"N 103°40'33"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 375 DELOREAN 9-10 FED COM 224H</td></tr><tr><td><b>Operator:</b></td><td>PERMIAN RESOURCES CORPORATION</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX3</td></tr><tr><td><b>Incident Type:</b></td><td>Twist Off</td></tr></table></div>`)[0];
+                popup_9fc6cfa1a834cb033704d98f97cd710a.setContent(html_8acfe0d4fd4a71b36cdbc53721386eaa);
+            
+        
+
+        marker_72cb4cf5685b0ee8bcd9f1bfd6200e1c.bindPopup(popup_9fc6cfa1a834cb033704d98f97cd710a)
+        ;
+
+        
+    
+    
+            var marker_f74a7fa45d01db3cf43476f699594fa8 = L.marker(
+                [32.311388888888885, -101.83972222222222],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_f7d06559215c5d51f71dd12c3770df99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec4ecbfaba05083b7363da0972348874 = $(`<div id="html_ec4ecbfaba05083b7363da0972348874" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>421</td></tr><tr><td><b>Location:</b></td><td>32°18'41"N 101°50'23"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 421 HILL UNIT 1 2562DH</td></tr><tr><td><b>Operator:</b></td><td>XTO ENERGY INC</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX3</td></tr><tr><td><b>Incident Type:</b></td><td>Back Out; Pressure Loss</td></tr></table></div>`)[0];
+                popup_f7d06559215c5d51f71dd12c3770df99.setContent(html_ec4ecbfaba05083b7363da0972348874);
+            
+        
+
+        marker_f74a7fa45d01db3cf43476f699594fa8.bindPopup(popup_f7d06559215c5d51f71dd12c3770df99)
+        ;
+
+        
+    
+    
+            var marker_bab0967469574e09fdd8deb017053a73 = L.marker(
+                [32.311388888888885, -101.83972222222222],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_23dc0531f9e0182056f03fbd813f85e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd513ebaca95d893476e57887811c203 = $(`<div id="html_dd513ebaca95d893476e57887811c203" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>426</td></tr><tr><td><b>Location:</b></td><td>32°18'41"N 101°50'23"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 426 FEE BV 0601 2 LB</td></tr><tr><td><b>Operator:</b></td><td>FASKEN OIL & RANCH LTD</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX3</td></tr><tr><td><b>Incident Type:</b></td><td>Twist Off</td></tr></table></div>`)[0];
+                popup_23dc0531f9e0182056f03fbd813f85e6.setContent(html_dd513ebaca95d893476e57887811c203);
+            
+        
+
+        marker_bab0967469574e09fdd8deb017053a73.bindPopup(popup_23dc0531f9e0182056f03fbd813f85e6)
+        ;
+
+        
+    
+    
+            var marker_5cc6f9bc89c8c9307813671135083b57 = L.marker(
+                [31.857222222222223, -93.57805555555555],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_bcbde72d4b3215225e3a05b1df0cee2d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66426d306c1dd5730a4f78bf012b9fff = $(`<div id="html_66426d306c1dd5730a4f78bf012b9fff" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>444</td></tr><tr><td><b>Location:</b></td><td>31°51'26"N 93°34'41"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 444 RANKIN 14-23-26 HC 002-ALT</td></tr><tr><td><b>Operator:</b></td><td>GEP HAYNESVILLE II, LLC</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX3</td></tr><tr><td><b>Incident Type:</b></td><td>Autodriller Pro; FlexOscillators; Autodriller Pro; FlexB2D; FlexOscillator; Backout</td></tr></table></div>`)[0];
+                popup_bcbde72d4b3215225e3a05b1df0cee2d.setContent(html_66426d306c1dd5730a4f78bf012b9fff);
+            
+        
+
+        marker_5cc6f9bc89c8c9307813671135083b57.bindPopup(popup_bcbde72d4b3215225e3a05b1df0cee2d)
+        ;
+
+        
+    
+    
+            var marker_eb12178426af0b4bffe3a5116a8a0968 = L.marker(
+                [31.290555555555557, -103.64],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_05a3150dff6512ae583a17a2a0b3ee14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e500083ea0f7c2264ada14b4723b5bf4 = $(`<div id="html_e500083ea0f7c2264ada14b4723b5bf4" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>461</td></tr><tr><td><b>Location:</b></td><td>31°17'26"N 103°38'24"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 461 MCGARY-TUDOR WEST 4H</td></tr><tr><td><b>Operator:</b></td><td>UPCURVE ENERGY</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX3</td></tr><tr><td><b>Incident Type:</b></td><td>Mud Motor Failure, Bit Failure, Unplanned Trip, Pressure Loss ,AutoDriller Pro; FlexOscillator</td></tr></table></div>`)[0];
+                popup_05a3150dff6512ae583a17a2a0b3ee14.setContent(html_e500083ea0f7c2264ada14b4723b5bf4);
+            
+        
+
+        marker_eb12178426af0b4bffe3a5116a8a0968.bindPopup(popup_05a3150dff6512ae583a17a2a0b3ee14)
+        ;
+
+        
+    
+    
+            var marker_9161c382467eab0d047815d650ea8623 = L.marker(
+                [28.584166666666665, -98.18694444444445],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_91d07f65a52edfab6b7f79fe9e785856 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e102d9cf3c9bd54e6c0603ee922da89 = $(`<div id="html_9e102d9cf3c9bd54e6c0603ee922da89" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>464</td></tr><tr><td><b>Location:</b></td><td>28°35'03"N 98°11'13"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 464 DOBIE RANCH 10</td></tr><tr><td><b>Operator:</b></td><td>CONOCOPHILLIPS</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX3</td></tr><tr><td><b>Incident Type:</b></td><td>Other (Undesired Hoist)</td></tr></table></div>`)[0];
+                popup_91d07f65a52edfab6b7f79fe9e785856.setContent(html_9e102d9cf3c9bd54e6c0603ee922da89);
+            
+        
+
+        marker_9161c382467eab0d047815d650ea8623.bindPopup(popup_91d07f65a52edfab6b7f79fe9e785856)
+        ;
+
+        
+    
+    
+            var marker_39eadde9de45cca979c60fbe2cdb0ef2 = L.marker(
+                [31.888055555555557, -102.27694444444444],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_f41341f215dbdd1b0a3682df6ce87f53 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9344ccc3db0ff29e6216425b95f4f256 = $(`<div id="html_9344ccc3db0ff29e6216425b95f4f256" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>466</td></tr><tr><td><b>Location:</b></td><td>31°53'17"N 102°16'37"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 466 KNIGHT H120WB</td></tr><tr><td><b>Operator:</b></td><td>PERMIAN DEEP ROCK</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX3</td></tr><tr><td><b>Incident Type:</b></td><td>Backout</td></tr></table></div>`)[0];
+                popup_f41341f215dbdd1b0a3682df6ce87f53.setContent(html_9344ccc3db0ff29e6216425b95f4f256);
+            
+        
+
+        marker_39eadde9de45cca979c60fbe2cdb0ef2.bindPopup(popup_f41341f215dbdd1b0a3682df6ce87f53)
+        ;
+
+        
+    
+    
+            var marker_2aba3c9070965c530d9221d4f933ac70 = L.marker(
+                [31.90083333333333, -101.92805555555556],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_3aa9802e2b027bb638fd553adff4e441 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f5d44a262a3b6be791af45c4b0b2fc3 = $(`<div id="html_5f5d44a262a3b6be791af45c4b0b2fc3" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>472</td></tr><tr><td><b>Location:</b></td><td>31°54'03"N 101°55'41"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 472 DONOVAN-WILLIS E32A 201H</td></tr><tr><td><b>Operator:</b></td><td>PIONEER NATURAL RESOURCES USA, INC</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX3</td></tr><tr><td><b>Incident Type:</b></td><td>Backout</td></tr></table></div>`)[0];
+                popup_3aa9802e2b027bb638fd553adff4e441.setContent(html_5f5d44a262a3b6be791af45c4b0b2fc3);
+            
+        
+
+        marker_2aba3c9070965c530d9221d4f933ac70.bindPopup(popup_3aa9802e2b027bb638fd553adff4e441)
+        ;
+
+        
+    
+    
+            var marker_67cb6acc0e2ef661507ae107a7982e98 = L.marker(
+                [28.675555555555558, -99.90861111111111],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_8b2b9efda225718aa9846c5585ed4bbe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_85e0eb15db1f0576d8b4258daa28c371 = $(`<div id="html_85e0eb15db1f0576d8b4258daa28c371" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>475</td></tr><tr><td><b>Location:</b></td><td>28°40'32"N 99°54'31"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 475 FERGUSON-MCKNIGHT H04EK</td></tr><tr><td><b>Operator:</b></td><td>MAGNOLIA OIL & GAS OPERATING, LLC</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX3</td></tr><tr><td><b>Incident Type:</b></td><td>Twist Off</td></tr></table></div>`)[0];
+                popup_8b2b9efda225718aa9846c5585ed4bbe.setContent(html_85e0eb15db1f0576d8b4258daa28c371);
+            
+        
+
+        marker_67cb6acc0e2ef661507ae107a7982e98.bindPopup(popup_8b2b9efda225718aa9846c5585ed4bbe)
+        ;
+
+        
+    
+    
+            var marker_11cf2fc4e9db8219774cecd1eea64f70 = L.marker(
+                [31.8875, -102.27555555555556],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_fd50e33bef7da9de9d50e5e3fc433f17 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e557349b19d33debd6ea955543a59d7 = $(`<div id="html_7e557349b19d33debd6ea955543a59d7" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>488</td></tr><tr><td><b>Location:</b></td><td>31°53'15"N 102°16'32"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 488 RIO GRANDE 12-24-F-48WB</td></tr><tr><td><b>Operator:</b></td><td>CUTBOW OPERATING, LLC</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX3</td></tr><tr><td><b>Incident Type:</b></td><td>Pressure Loss</td></tr></table></div>`)[0];
+                popup_fd50e33bef7da9de9d50e5e3fc433f17.setContent(html_7e557349b19d33debd6ea955543a59d7);
+            
+        
+
+        marker_11cf2fc4e9db8219774cecd1eea64f70.bindPopup(popup_fd50e33bef7da9de9d50e5e3fc433f17)
+        ;
+
+        
+    
+    
+            var marker_7316ddd5352ac11310470dd1461e7a77 = L.marker(
+                [29.052777777777777, -97.75],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_ae9ebf99ed5dabfb0ce6582225054316 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cfe5b538a51f16d2866e839e1cb48057 = $(`<div id="html_cfe5b538a51f16d2866e839e1cb48057" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>494</td></tr><tr><td><b>Location:</b></td><td>29°03'10"N 97°45'00"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 494 METZ-KORTH-RRU USW D1</td></tr><tr><td><b>Operator:</b></td><td>CONOCOPHILLIPS</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX3</td></tr><tr><td><b>Incident Type:</b></td><td>Twist Off</td></tr></table></div>`)[0];
+                popup_ae9ebf99ed5dabfb0ce6582225054316.setContent(html_cfe5b538a51f16d2866e839e1cb48057);
+            
+        
+
+        marker_7316ddd5352ac11310470dd1461e7a77.bindPopup(popup_ae9ebf99ed5dabfb0ce6582225054316)
+        ;
+
+        
+    
+    
+            var marker_35571ca64d77ddcbf520dbf5917f970f = L.marker(
+                [29.052777777777777, -97.75],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_df36742be9af4c84fda22ee4131052f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f8f7a57c7afd57eba83d5d0dcd88a3b = $(`<div id="html_3f8f7a57c7afd57eba83d5d0dcd88a3b" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>499</td></tr><tr><td><b>Location:</b></td><td>29°03'10"N 97°45'00"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 499 CRAWFORD 27E 105H</td></tr><tr><td><b>Operator:</b></td><td>PIONEER NATURAL RESOURCES USA, INC</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX3</td></tr><tr><td><b>Incident Type:</b></td><td>Pressure Loss</td></tr></table></div>`)[0];
+                popup_df36742be9af4c84fda22ee4131052f2.setContent(html_3f8f7a57c7afd57eba83d5d0dcd88a3b);
+            
+        
+
+        marker_35571ca64d77ddcbf520dbf5917f970f.bindPopup(popup_df36742be9af4c84fda22ee4131052f2)
+        ;
+
+        
+    
+    
+            var marker_a000c4c0716eee399b7959fffdf38050 = L.marker(
+                [29.620833333333334, -97.97444444444444],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_bdabb6b766c06f67dcf92497a57d4aa0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b0f6b210b79c7c1123cd63b04c4077b = $(`<div id="html_2b0f6b210b79c7c1123cd63b04c4077b" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>503</td></tr><tr><td><b>Location:</b></td><td>29°37'15"N 97°58'28"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 503 POST OAK 2H</td></tr><tr><td><b>Operator:</b></td><td>TIDAL PETROLEUM</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX5</td></tr><tr><td><b>Incident Type:</b></td><td>FlexOscillator</td></tr></table></div>`)[0];
+                popup_bdabb6b766c06f67dcf92497a57d4aa0.setContent(html_2b0f6b210b79c7c1123cd63b04c4077b);
+            
+        
+
+        marker_a000c4c0716eee399b7959fffdf38050.bindPopup(popup_bdabb6b766c06f67dcf92497a57d4aa0)
+        ;
+
+        
+    
+    
+            var marker_0ffc0427074f7143058672cdf3967ff8 = L.marker(
+                [31.787222222222223, -101.63527777777779],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_052b58748f3c7c86ec5c5605c975f30f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4cf7a9b23fe3051180e3c73f491f14ea = $(`<div id="html_4cf7a9b23fe3051180e3c73f491f14ea" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>509</td></tr><tr><td><b>Location:</b></td><td>31°47'14"N 101°38'07"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 509 COOK E 20Q 12D</td></tr><tr><td><b>Operator:</b></td><td>VITAL ENERGY, INC</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX5</td></tr><tr><td><b>Incident Type:</b></td><td>FlexB2D; FlexOscillator; FlexTorque; StallAssist</td></tr></table></div>`)[0];
+                popup_052b58748f3c7c86ec5c5605c975f30f.setContent(html_4cf7a9b23fe3051180e3c73f491f14ea);
+            
+        
+
+        marker_0ffc0427074f7143058672cdf3967ff8.bindPopup(popup_052b58748f3c7c86ec5c5605c975f30f)
+        ;
+
+        
+    
+    
+            var marker_0b78b7b2c57bae830189acc046ee29a7 = L.marker(
+                [32.13138888888889, -95.30972222222222],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_5ea9bdb705d5f3f766b9a45e2cf061ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cda2e1b446264e9937c2085f95e332b5 = $(`<div id="html_cda2e1b446264e9937c2085f95e332b5" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>511</td></tr><tr><td><b>Location:</b></td><td>32°07'53"N 95°18'35"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 511 BAGLEY SOUTH HV UNIT A 1 H</td></tr><tr><td><b>Operator:</b></td><td>ROCKCLIFF OPERATING NEW MEXICO LLC</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX5</td></tr><tr><td><b>Incident Type:</b></td><td>Back Out; Twist Off</td></tr></table></div>`)[0];
+                popup_5ea9bdb705d5f3f766b9a45e2cf061ff.setContent(html_cda2e1b446264e9937c2085f95e332b5);
+            
+        
+
+        marker_0b78b7b2c57bae830189acc046ee29a7.bindPopup(popup_5ea9bdb705d5f3f766b9a45e2cf061ff)
+        ;
+
+        
+    
+    
+            var marker_c045129ccfd265b6ff671c58e851d008 = L.marker(
+                [29.145555555555553, -97.44972222222222],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_971602e478be3a5b83f1b6ba5ff956a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79f2455a033ea2b8984185d20bd53c76 = $(`<div id="html_79f2455a033ea2b8984185d20bd53c76" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>512</td></tr><tr><td><b>Location:</b></td><td>29°08'44"N 97°26'59"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 512 HARTMAN A-CANTU A SA1 1H</td></tr><tr><td><b>Operator:</b></td><td>BP PRODUCTION COMPANY</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX5</td></tr><tr><td><b>Incident Type:</b></td><td>Twist Off (x4) , Pressure Loss, Other (Overpull)</td></tr></table></div>`)[0];
+                popup_971602e478be3a5b83f1b6ba5ff956a1.setContent(html_79f2455a033ea2b8984185d20bd53c76);
+            
+        
+
+        marker_c045129ccfd265b6ff671c58e851d008.bindPopup(popup_971602e478be3a5b83f1b6ba5ff956a1)
+        ;
+
+        
+    
+    
+            var marker_85fe50be0d1da5d47d1193d387abcbc2 = L.marker(
+                [32.206944444444446, -103.92],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_aaef3697d12639e51fb018567a65d890 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35817e38460213f73100d2661a91e40c = $(`<div id="html_35817e38460213f73100d2661a91e40c" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>532</td></tr><tr><td><b>Location:</b></td><td>32°12'25"N 103°55'12"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 532 PLU 19 DTD 323H</td></tr><tr><td><b>Operator:</b></td><td>XTO ENERGY INC</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX5</td></tr><tr><td><b>Incident Type:</b></td><td>Pressure Loss</td></tr></table></div>`)[0];
+                popup_aaef3697d12639e51fb018567a65d890.setContent(html_35817e38460213f73100d2661a91e40c);
+            
+        
+
+        marker_85fe50be0d1da5d47d1193d387abcbc2.bindPopup(popup_aaef3697d12639e51fb018567a65d890)
+        ;
+
+        
+    
+    
+            var marker_e5ad65fce6fcf1780b47c5207ec3e6f7 = L.marker(
+                [31.685833333333335, -103.98611111111111],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_0539b9fa4f8725cab5cb294d0ff81faf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4e565fafb52c2efb39b2d040a9a9a65 = $(`<div id="html_e4e565fafb52c2efb39b2d040a9a9a65" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>534</td></tr><tr><td><b>Location:</b></td><td>31°41'09"N 103°59'10"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 534 HEMDALE STATE 610H</td></tr><tr><td><b>Operator:</b></td><td>APACHE CORPORATION</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX5</td></tr><tr><td><b>Incident Type:</b></td><td>Twist Off (x2), AutoDriller Pro; FlexOscillator</td></tr></table></div>`)[0];
+                popup_0539b9fa4f8725cab5cb294d0ff81faf.setContent(html_e4e565fafb52c2efb39b2d040a9a9a65);
+            
+        
+
+        marker_e5ad65fce6fcf1780b47c5207ec3e6f7.bindPopup(popup_0539b9fa4f8725cab5cb294d0ff81faf)
+        ;
+
+        
+    
+    
+            var marker_79a729d3f63a1b99d60f5827ac1c060d = L.marker(
+                [46.98583333333333, -102.80111111111111],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_1f43dca9400dc31fac62502320d82a2e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7ade490713c8e884c1d39327a589f7c = $(`<div id="html_b7ade490713c8e884c1d39327a589f7c" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>535</td></tr><tr><td><b>Location:</b></td><td>46°59'09"N 102°48'04"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 535 KERMIT 1-8-32 UTFH</td></tr><tr><td><b>Operator:</b></td><td>CONOCOPHILLIPS</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX5</td></tr><tr><td><b>Incident Type:</b></td><td>AutoDriller Pro; AutoSlide; FlexB2D; FlexOscillator; FlexTorque; Sequencer; StallAssist (x2)</td></tr></table></div>`)[0];
+                popup_1f43dca9400dc31fac62502320d82a2e.setContent(html_b7ade490713c8e884c1d39327a589f7c);
+            
+        
+
+        marker_79a729d3f63a1b99d60f5827ac1c060d.bindPopup(popup_1f43dca9400dc31fac62502320d82a2e)
+        ;
+
+        
+    
+    
+            var marker_fa70bab087715973fdcd8a00bcfd322f = L.marker(
+                [29.203333333333333, -97.4263888888889],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_58eecab4f5191cf78b7f005b7ddbcae6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_901024467f9ffecb39c21142dee3fd59 = $(`<div id="html_901024467f9ffecb39c21142dee3fd59" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>539</td></tr><tr><td><b>Location:</b></td><td>29°12'12"N 97°25'35"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 539 KRAUSE B-STRENK A SA 2 2H</td></tr><tr><td><b>Operator:</b></td><td>BP PRODUCTION COMPANY</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX5</td></tr><tr><td><b>Incident Type:</b></td><td>Mud Motor Failure (x2), Twist Off</td></tr></table></div>`)[0];
+                popup_58eecab4f5191cf78b7f005b7ddbcae6.setContent(html_901024467f9ffecb39c21142dee3fd59);
+            
+        
+
+        marker_fa70bab087715973fdcd8a00bcfd322f.bindPopup(popup_58eecab4f5191cf78b7f005b7ddbcae6)
+        ;
+
+        
+    
+    
+            var marker_6ea3f94cc7306c9f6b80d3081eaf9f2c = L.marker(
+                [29.091666666666665, -97.62333333333332],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_0014eaf6da4cabc3596db3b145d47a48 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d36c0ca905cce909d366ca73a329f3b = $(`<div id="html_7d36c0ca905cce909d366ca73a329f3b" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>541</td></tr><tr><td><b>Location:</b></td><td>29°05'30"N 97°37'24"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 541 WILLEKE A21H</td></tr><tr><td><b>Operator:</b></td><td>BP PRODUCTION COMPANY</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX5</td></tr><tr><td><b>Incident Type:</b></td><td>Mud Motor Failure, Twist Off, Other (Failed Curve), Bit Failure</td></tr></table></div>`)[0];
+                popup_0014eaf6da4cabc3596db3b145d47a48.setContent(html_7d36c0ca905cce909d366ca73a329f3b);
+            
+        
+
+        marker_6ea3f94cc7306c9f6b80d3081eaf9f2c.bindPopup(popup_0014eaf6da4cabc3596db3b145d47a48)
+        ;
+
+        
+    
+    
+            var marker_fd6b32c084e8cb8697d1037c2a4edd60 = L.marker(
+                [31.4, -94.33888888888889],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_f516a405cf512b67fd3e98eb61ddc24a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7cde9c3506a4097fd4476ad1524bb892 = $(`<div id="html_7cde9c3506a4097fd4476ad1524bb892" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>543</td></tr><tr><td><b>Location:</b></td><td>31°24'00"N 94°20'20"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 543 WALKER SU E-D ALLOC A 1H</td></tr><tr><td><b>Operator:</b></td><td>EXCO OPERATING COMPANY LP</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX5</td></tr><tr><td><b>Incident Type:</b></td><td>Twist Off, Back Out (x2)</td></tr></table></div>`)[0];
+                popup_f516a405cf512b67fd3e98eb61ddc24a.setContent(html_7cde9c3506a4097fd4476ad1524bb892);
+            
+        
+
+        marker_fd6b32c084e8cb8697d1037c2a4edd60.bindPopup(popup_f516a405cf512b67fd3e98eb61ddc24a)
+        ;
+
+        
+    
+    
+            var marker_d9aaacc07fad6f22996ac7731fbb6e09 = L.marker(
+                [34.43111111111111, -97.45944444444444],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_9060ef9d7db3c52d78d09181086957fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b46e6d274b86d511007e885a3cc637b = $(`<div id="html_5b46e6d274b86d511007e885a3cc637b" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>544</td></tr><tr><td><b>Location:</b></td><td>34°25'52"N 97°27'34"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 544 GAPSTOW 8-25-23XHM</td></tr><tr><td><b>Operator:</b></td><td>CONTINENTAL RESOURCES</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX5</td></tr><tr><td><b>Incident Type:</b></td><td>Back Out</td></tr></table></div>`)[0];
+                popup_9060ef9d7db3c52d78d09181086957fb.setContent(html_5b46e6d274b86d511007e885a3cc637b);
+            
+        
+
+        marker_d9aaacc07fad6f22996ac7731fbb6e09.bindPopup(popup_9060ef9d7db3c52d78d09181086957fb)
+        ;
+
+        
+    
+    
+            var marker_9db590cecdf5c624c30d2265259a5590 = L.marker(
+                [32.283055555555556, -101.74333333333334],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_ceaf526a6708a6c4fecd84b11f10770c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec850964287758c4cc5b86f452da9e13 = $(`<div id="html_ec850964287758c4cc5b86f452da9e13" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>547</td></tr><tr><td><b>Location:</b></td><td>32°16'59"N 101°44'36"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 547 RIPPLE UNIT 1 3772JH</td></tr><tr><td><b>Operator:</b></td><td>XTO ENERGY INC</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX5</td></tr><tr><td><b>Incident Type:</b></td><td>Bit Failure,AutoSlide; FlexOscillator</td></tr></table></div>`)[0];
+                popup_ceaf526a6708a6c4fecd84b11f10770c.setContent(html_ec850964287758c4cc5b86f452da9e13);
+            
+        
+
+        marker_9db590cecdf5c624c30d2265259a5590.bindPopup(popup_ceaf526a6708a6c4fecd84b11f10770c)
+        ;
+
+        
+    
+    
+            var marker_77ae7b22b1e800f4a656ec46243bc04c = L.marker(
+                [32.20638888888889, -103.92472222222223],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_6a54aa8ca7a1cc033597e8f48178de95 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_20d3d9e6637367355e0e742d668d9425 = $(`<div id="html_20d3d9e6637367355e0e742d668d9425" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>549</td></tr><tr><td><b>Location:</b></td><td>32°12'23"N 103°55'29"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 549 PLU 19 DOG TOWN DRAW 217H</td></tr><tr><td><b>Operator:</b></td><td>XTO ENERGY INC</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX5</td></tr><tr><td><b>Incident Type:</b></td><td>Twist Off, Pressure Loss</td></tr></table></div>`)[0];
+                popup_6a54aa8ca7a1cc033597e8f48178de95.setContent(html_20d3d9e6637367355e0e742d668d9425);
+            
+        
+
+        marker_77ae7b22b1e800f4a656ec46243bc04c.bindPopup(popup_6a54aa8ca7a1cc033597e8f48178de95)
+        ;
+
+        
+    
+    
+            var marker_965e740509cedfebe8c1775fdbe3ed76 = L.marker(
+                [32.20638888888889, -103.92472222222223],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_9dff3c63118e719e8c52d8c51ff48a71 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a0cd5d4dc4281f124beb93c68f147e4 = $(`<div id="html_8a0cd5d4dc4281f124beb93c68f147e4" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>552</td></tr><tr><td><b>Location:</b></td><td>32°12'23"N 103°55'29"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 552 PLU 22 DTD 102H</td></tr><tr><td><b>Operator:</b></td><td>XTO ENERGY INC</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX5</td></tr><tr><td><b>Incident Type:</b></td><td>Pressure Loss; Twist Off</td></tr></table></div>`)[0];
+                popup_9dff3c63118e719e8c52d8c51ff48a71.setContent(html_8a0cd5d4dc4281f124beb93c68f147e4);
+            
+        
+
+        marker_965e740509cedfebe8c1775fdbe3ed76.bindPopup(popup_9dff3c63118e719e8c52d8c51ff48a71)
+        ;
+
+        
+    
+    
+            var marker_9c848a26e369d97dabb9005833ca8cc3 = L.marker(
+                [32.708333333333336, -103.50833333333334],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_2caac6fc99d5679b5e0d48ff0de5829f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c80053ca878f362209aa4302fd716a5f = $(`<div id="html_c80053ca878f362209aa4302fd716a5f" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>556</td></tr><tr><td><b>Location:</b></td><td>32°42'30"N 103°30'30"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 556 SATELLITE STATE COM 804H</td></tr><tr><td><b>Operator:</b></td><td>FRANKLIN MOUNTAIN ENERGY 3, LLC</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX5</td></tr><tr><td><b>Incident Type:</b></td><td>Pressure Loss</td></tr></table></div>`)[0];
+                popup_2caac6fc99d5679b5e0d48ff0de5829f.setContent(html_c80053ca878f362209aa4302fd716a5f);
+            
+        
+
+        marker_9c848a26e369d97dabb9005833ca8cc3.bindPopup(popup_2caac6fc99d5679b5e0d48ff0de5829f)
+        ;
+
+        
+    
+    
+            var marker_a50231aa495006acd9cff75ec0d9dd40 = L.marker(
+                [40.22416666666667, -81.26472222222222],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_ba662b78905fdca969997f91e50fb06d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c12e0459541fb7047f5006fe2d44348f = $(`<div id="html_c12e0459541fb7047f5006fe2d44348f" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>608</td></tr><tr><td><b>Location:</b></td><td>40°13'27"N 81°15'53"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 608 WOLVERINE HFP07 6A</td></tr><tr><td><b>Operator:</b></td><td>EOG RESOURCES, INC.</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX3</td></tr><tr><td><b>Incident Type:</b></td><td>Other (Large Torque Swings)</td></tr></table></div>`)[0];
+                popup_ba662b78905fdca969997f91e50fb06d.setContent(html_c12e0459541fb7047f5006fe2d44348f);
+            
+        
+
+        marker_a50231aa495006acd9cff75ec0d9dd40.bindPopup(popup_ba662b78905fdca969997f91e50fb06d)
+        ;
+
+        
+    
+    
+            var marker_7188fec2905f84fbf551fea35f7bdc7a = L.marker(
+                [31.22472222222222, -103.33777777777777],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_dd220070ac8b3454fd4fcef053ebebd9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5056da4c369c1b51e23ca3e3a38d468 = $(`<div id="html_c5056da4c369c1b51e23ca3e3a38d468" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>629</td></tr><tr><td><b>Location:</b></td><td>31°13'29"N 103°20'16"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 629 MOSAIC STATE UNIT 33-34 10TB</td></tr><tr><td><b>Operator:</b></td><td>VITAL ENERGY, INC</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX3</td></tr><tr><td><b>Incident Type:</b></td><td>Twist Off</td></tr></table></div>`)[0];
+                popup_dd220070ac8b3454fd4fcef053ebebd9.setContent(html_c5056da4c369c1b51e23ca3e3a38d468);
+            
+        
+
+        marker_7188fec2905f84fbf551fea35f7bdc7a.bindPopup(popup_dd220070ac8b3454fd4fcef053ebebd9)
+        ;
+
+        
+    
+    
+            var marker_2f578d13b3115a879fea361d48305bc9 = L.marker(
+                [31.88861111111111, -102.27722222222222],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_56e3d024b117f1ed53e7bbe9d5adcc86 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00d2594158579fe7e5e8883b434f3459 = $(`<div id="html_00d2594158579fe7e5e8883b434f3459" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>644</td></tr><tr><td><b>Location:</b></td><td>31°53'19"N 102°16'38"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 644 KNIGHT H 110 WB</td></tr><tr><td><b>Operator:</b></td><td>PERMIAN DEEP ROCK</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX3</td></tr><tr><td><b>Incident Type:</b></td><td>FlexOscillator; FlexTorque</td></tr></table></div>`)[0];
+                popup_56e3d024b117f1ed53e7bbe9d5adcc86.setContent(html_00d2594158579fe7e5e8883b434f3459);
+            
+        
+
+        marker_2f578d13b3115a879fea361d48305bc9.bindPopup(popup_56e3d024b117f1ed53e7bbe9d5adcc86)
+        ;
+
+        
+    
+    
+            var marker_43f73d1e5a6de12fabe815789335db09 = L.marker(
+                [32.1875, -103.50333333333333],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_bac4d990f1a6959f034d5d2565fb9c8f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b35600711fe2fa14e540dd5acbe3259e = $(`<div id="html_b35600711fe2fa14e540dd5acbe3259e" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>653</td></tr><tr><td><b>Location:</b></td><td>32°11'15"N 103°30'12"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 653 JUPITER 30 FED COM 710H</td></tr><tr><td><b>Operator:</b></td><td>EOG RESOURCES, INC.</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX3</td></tr><tr><td><b>Incident Type:</b></td><td>Twist Off</td></tr></table></div>`)[0];
+                popup_bac4d990f1a6959f034d5d2565fb9c8f.setContent(html_b35600711fe2fa14e540dd5acbe3259e);
+            
+        
+
+        marker_43f73d1e5a6de12fabe815789335db09.bindPopup(popup_bac4d990f1a6959f034d5d2565fb9c8f)
+        ;
+
+        
+    
+    
+            var marker_2411507ba9c1c450ca3b9d6e48e7cecd = L.marker(
+                [32.1875, -103.50333333333333],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_30ed00988e1748ca9344ad853a3a9b6c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8c27afbb2085e8408284ceb56c8f41f = $(`<div id="html_d8c27afbb2085e8408284ceb56c8f41f" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>656</td></tr><tr><td><b>Location:</b></td><td>32°11'15"N 103°30'12"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 656 ELM STATE UNIT 102AH</td></tr><tr><td><b>Operator:</b></td><td>APACHE CORPORATION</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX3</td></tr><tr><td><b>Incident Type:</b></td><td>Pressure Loss</td></tr></table></div>`)[0];
+                popup_30ed00988e1748ca9344ad853a3a9b6c.setContent(html_d8c27afbb2085e8408284ceb56c8f41f);
+            
+        
+
+        marker_2411507ba9c1c450ca3b9d6e48e7cecd.bindPopup(popup_30ed00988e1748ca9344ad853a3a9b6c)
+        ;
+
+        
+    
+    
+            var marker_8090a36808d74959bdf7526c6b451093 = L.marker(
+                [32.238055555555555, -103.65805555555556],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_17917356855c62d3dc39f1e643e0da5d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_092da71871f923d37b6e7d9aaa9a20ad = $(`<div id="html_092da71871f923d37b6e7d9aaa9a20ad" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>246</td></tr><tr><td><b>Location:</b></td><td>32°14'17"N 103°39'29"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 246 MODELO 10 FED COM 215H</td></tr><tr><td><b>Operator:</b></td><td>EOG RESOURCES, INC.</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX3</td></tr><tr><td><b>Incident Type:</b></td><td>Bit Failure</td></tr></table></div>`)[0];
+                popup_17917356855c62d3dc39f1e643e0da5d.setContent(html_092da71871f923d37b6e7d9aaa9a20ad);
+            
+        
+
+        marker_8090a36808d74959bdf7526c6b451093.bindPopup(popup_17917356855c62d3dc39f1e643e0da5d)
+        ;
+
+        
+    
+    
+            var marker_a9f31388393b53c8cfd9c3e8bcf6e26e = L.marker(
+                [32.486666666666665, -103.68388888888889],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_0fa9dab0ed9f962b4efa53396d17d52a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d32a3ab5c22ac04f7903b663b2d4b5c9 = $(`<div id="html_d32a3ab5c22ac04f7903b663b2d4b5c9" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>313</td></tr><tr><td><b>Location:</b></td><td>32°29'12"N 103°41'02"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 313 MORAN 9 FED COM 171H</td></tr><tr><td><b>Operator:</b></td><td>PERMIAN RESOURCES CORPORATION</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX3</td></tr><tr><td><b>Incident Type:</b></td><td>Plugged Jets-Connection Process</td></tr></table></div>`)[0];
+                popup_0fa9dab0ed9f962b4efa53396d17d52a.setContent(html_d32a3ab5c22ac04f7903b663b2d4b5c9);
+            
+        
+
+        marker_a9f31388393b53c8cfd9c3e8bcf6e26e.bindPopup(popup_0fa9dab0ed9f962b4efa53396d17d52a)
+        ;
+
+        
+    
+    
+            var marker_ee8f348e5bb4c624beae07099eaa9eda = L.marker(
+                [31.703333333333333, -102.19527777777778],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_da09de735e0e342bc89b120746a34d53 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2631ae55bf997371bc1022338422ebf = $(`<div id="html_d2631ae55bf997371bc1022338422ebf" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>533</td></tr><tr><td><b>Location:</b></td><td>31°42'12"N 102°11'43"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 533 BOULTINGHOUSE LYNCH 1114 F 9HS</td></tr><tr><td><b>Operator:</b></td><td>APACHE CORPORATION</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX5</td></tr><tr><td><b>Incident Type:</b></td><td>Pressure Loss, Twist Off</td></tr></table></div>`)[0];
+                popup_da09de735e0e342bc89b120746a34d53.setContent(html_d2631ae55bf997371bc1022338422ebf);
+            
+        
+
+        marker_ee8f348e5bb4c624beae07099eaa9eda.bindPopup(popup_da09de735e0e342bc89b120746a34d53)
+        ;
+
+        
+    
+    
+            var marker_c60d90aa92b4920d923a99a3fe94bea3 = L.marker(
+                [28.788333333333334, -98.165],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_d887012641c8da7cb7dc3bba4e93b15e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_624773b1385984749110e956789371c1 = $(`<div id="html_624773b1385984749110e956789371c1" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>632</td></tr><tr><td><b>Location:</b></td><td>28°47'18"N 98°09'54"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 632 EMMA TARTT TOM Z PAD 36H</td></tr><tr><td><b>Operator:</b></td><td>XTO ENERGY INC</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX3</td></tr><tr><td><b>Incident Type:</b></td><td>Mud Motor Failure</td></tr></table></div>`)[0];
+                popup_d887012641c8da7cb7dc3bba4e93b15e.setContent(html_624773b1385984749110e956789371c1);
+            
+        
+
+        marker_c60d90aa92b4920d923a99a3fe94bea3.bindPopup(popup_d887012641c8da7cb7dc3bba4e93b15e)
+        ;
+
+        
+    
+    
+            var marker_307a92d390151ee423b753791685226d = L.marker(
+                [32.34027777777778, -103.81],
+                {}
+            ).addTo(map_7a9dac40431cfef71344d7092db55cf7);
+        
+    
+        var popup_65ce20cc7c622aa531a73ad2f35b2050 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96bcb311f34e550eed6e982853493a85 = $(`<div id="html_96bcb311f34e550eed6e982853493a85" style="width: 100.0%; height: 100.0%;"><table><tr><td><b>Rig ID:</b></td><td>502</td></tr><tr><td><b>Location:</b></td><td>32°20'25"N 103°48'36"W</td></tr><tr><td><b>Well Name:</b></td><td>RIG 502 JRU DI 7 SAWTOOTH 803H</td></tr><tr><td><b>Operator:</b></td><td>XTO ENERGY INC</td></tr><tr><td><b>Rig Type:</b></td><td>FLEX5</td></tr><tr><td><b>Incident Type:</b></td><td>AutoDriller Pro; AutoSlide; FlexB2D; FlexOscillator; FlexTorque; RSS Downlink; StallAssis</td></tr></table></div>`)[0];
+                popup_65ce20cc7c622aa531a73ad2f35b2050.setContent(html_96bcb311f34e550eed6e982853493a85);
+            
+        
+
+        marker_307a92d390151ee423b753791685226d.bindPopup(popup_65ce20cc7c622aa531a73ad2f35b2050)
+        ;
+
+        
+    
+</script>
+</html>
